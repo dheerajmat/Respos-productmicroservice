@@ -147,7 +147,7 @@ app.get('/api-docs', (req, res) => {
 app.use('/api/v2', routes);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Respos API! Go to /api-docs for documentation');
+  res.send('Welcome to Respos API! <a href="https://productmicroservice-respos.netlify.app/">Click on this link for documentation</a>');
 });
 
 // Error handling
